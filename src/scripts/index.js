@@ -6,7 +6,7 @@ const audio = new Audio("./../tunes/a.wav")
 let mapedKeys = []
 
 const playtune = (key) =>{
-    audio.src = `../tunes/${key}.wav`
+    audio.src = `./../tunes/${key}.wav`
     audio.play()
 
     const clickedKey = document.querySelector(`[data-key="${key}"]`)
