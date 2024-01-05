@@ -129,9 +129,6 @@ header .column span {
   background: linear-gradient(#333, #000);
 }
 
-.piano-keys .key.hide span{
-  display: none;
-}
 
 .piano-keys span {
   position: absolute;
@@ -139,4 +136,9 @@ header .column span {
   width: 100%;
   text-align: center;
   font-size: 1.13rem;
+}
+
+
+.piano-keys .key.hide span{
+  display: none;
 }
