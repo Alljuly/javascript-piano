@@ -35,6 +35,8 @@ const hideKeys = () => {
     )
 }
 
+keysChecked.addEventListener("click", hideKeys)
+
 const handleVol = (e) => {
     audio.volume = e.target.value   
 }
