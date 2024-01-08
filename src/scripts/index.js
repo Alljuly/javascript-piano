@@ -32,8 +32,9 @@ const hideKeys = () => {
     pianoKeys.forEach( (key) => key.classList.toggle("hide"))
 }
 
-keysChecked.addEventListener("click", hideKeys)
-
+if(keysChecked){
+    keysChecked.addEventListener("click", hideKeys)
+}
 const handleVol = (e) => {
     audio.volume = e.target.value   
 }
